@@ -23,7 +23,6 @@ Implementasi sistem AI untuk pembangkitan soal ujian secara otomatis berdasarkan
 │
 ├── Automatic Bloom's Taxonomy Question Generation ... .pdf   # Paper lengkap
 ├── Hasil iThenticate.pdf                                     # Hasil cek plagiasi
-├── CLAUDE.md
 └── README.md
 ```
 
