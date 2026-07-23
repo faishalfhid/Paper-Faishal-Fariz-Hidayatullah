@@ -16,10 +16,10 @@ Implementasi sistem AI untuk pembangkitan soal ujian secara otomatis berdasarkan
 │   └── blooms_taxonomy_dataset.csv         # Dataset evaluasi klasifikasi (8.767 soal berlabel)
 │
 ├── SOURCE CODE/
-│   ├── llama_RAG_Bloom_Question_Generator.ipynb    # Pipeline dengan LLM Llama 3.1 (8B)
-│   ├── Mixtral_RAG_Bloom_Question_Generator.ipynb  # Pipeline dengan LLM Mistral 7B
-│   ├── Gemma_RAG_Bloom_Question_Generator.ipynb    # Pipeline dengan LLM Gemma3 4B
-│   └── Qwen_RAG_Bloom_Question_Generator.ipynb     # Pipeline dengan LLM Qwen3 8B
+│   ├── Llama_RAG_Bloom_Question_Generator_v2.ipynb              # Pipeline dengan LLM Llama 3.1 (8B)
+│   ├── Mixtrall_RAG_Bloom_Question_Generator_v2.ipynb           # Pipeline dengan LLM Mistral 7B
+│   ├── Gemma_RAG_Bloom_Question_Generator_v2.ipynb              # Pipeline dengan LLM Gemma3 4B
+│   └── Qwen_RAG_Bloom_Question_Generator_v2 copy.ipynb          # Pipeline dengan LLM Qwen3 8B
 │
 ├── Automatic Bloom's Taxonomy Question Generation ... .pdf   # Paper lengkap
 ├── Hasil iThenticate.pdf                                     # Hasil cek plagiasi
