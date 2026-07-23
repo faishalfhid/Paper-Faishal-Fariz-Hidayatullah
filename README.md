@@ -99,10 +99,10 @@ PHASE 3 — Evaluation + Feedback Loop
 
 | Notebook | LLM | Ollama Model |
 |----------|-----|--------------|
-| `llama_RAG_Bloom_Question_Generator.ipynb` | Llama 3.1 8B | `llama3.1:8b` |
-| `Mixtral_RAG_Bloom_Question_Generator.ipynb` | Mistral 7B | `mistral:7b` |
-| `Gemma_RAG_Bloom_Question_Generator.ipynb` | Gemma3 4B | `gemma3:4b` |
-| `Qwen_RAG_Bloom_Question_Generator.ipynb` | Qwen3 8B | `qwen3:8b` |
+| `Llama_RAG_Bloom_Question_Generator_v2.ipynb` | Llama 3.1 8B | `llama3.1:8b` |
+| `Mixtrall_RAG_Bloom_Question_Generator_v2.ipynb` | Mistral 7B | `mistral:7b` |
+| `Gemma_RAG_Bloom_Question_Generator_v2.ipynb` | Gemma3 4B | `gemma3:4b` |
+| `Qwen_RAG_Bloom_Question_Generator_v2 copy.ipynb` | Qwen3 8B | `qwen3:8b` |
 
 ---
 
@@ -205,10 +205,10 @@ Evaluasi penuh (seluruh topik x 6 level Bloom = ±1.914 kombinasi) membutuhkan w
 
 | Notebook | Checkpoint File |
 |----------|----------------|
-| Llama | `eval_checkpoint.jsonl` |
-| Mixtral | `mixtral_eval_checkpoint.jsonl` |
-| Gemma | `gemma_eval_checkpoint.jsonl` |
-| Qwen | `qwen_eval_checkpoint.jsonl` |
+| Llama | `eval_checkpoint_llama.jsonl` |
+| Mixtral | `eval_checkpoint_mistral.jsonl` |
+| Gemma | `eval_checkpoint_gemma.jsonl` |
+| Qwen | `eval_checkpoint_qwen.jsonl` |
 
 Cukup jalankan ulang cell evaluasi — baris yang sudah selesai akan dilewati otomatis. Hapus file `.jsonl` untuk memulai evaluasi dari awal.
 
@@ -241,10 +241,10 @@ Definisi metrik: **TP** = Ideal (distance=0), **FP** = Slightly Ideal (distance=
 ### 3. File Hasil yang Dihasilkan
 
 Setelah evaluasi selesai, notebook menyimpan:
-- `evaluation_results.csv` (Llama)
-- `MIXTRAL_evaluation_results.csv`
-- `GEMMA_evaluation_results.csv`
-- `qwen_evaluation_results.csv` (nama variabel di notebook menunjuk ke ini)
+- `evaluation_results.csv` + `efficiency_report.csv` (Llama)
+- `evaluation_results_Mixtral.csv` + `efficiency_report_Mixtral.csv` (Mixtral)
+- `evaluation_results_Gemma.csv` + `efficiency_report_Gemma.csv` (Gemma)
+- `evaluation_results_Qwen.csv` + `efficiency_report_Qwen.csv` (Qwen)
 
 ---
 
